@@ -7,6 +7,9 @@ This app provides RESTful API with a single endpoint for getir case study.
 
 I avoid over engineering but created well-structured project.
 
+**Aws URL**:\
+http://ec2-18-219-34-197.us-east-2.compute.amazonaws.com:3000/v1/records:3000
+
 ## Manual Installation
 
 If you would still prefer to do the installation manually, follow these steps:
@@ -52,8 +55,6 @@ You can view the api documentation at [browser](http://localhost:3000/v1/docs)
 
 ### API Endpoints
 
-
-http://ec2-18-219-34-197.us-east-2.compute.amazonaws.com:3000/v1/records
 
 **Records routes**:\
 `POST /v1/records` - filter the records with given request body
