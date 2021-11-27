@@ -13,7 +13,7 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: `http://localhost:${config.port}/v1`,
+      url: `http://ec2-18-219-34-197.us-east-2.compute.amazonaws.com:3000/:${config.port}/v1`,
     },
   ],
 };
