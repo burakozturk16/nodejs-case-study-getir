@@ -1,3 +1,17 @@
 language: node_js
 node_js:
-  - 14
+  - '12'
+services:
+  - mongodb
+cache: yarn
+branches:
+  only:
+    - master
+env:
+  global:
+    - PORT=3000
+    - MONGODB_URL=mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true
+script:
+  - yarn lint
+  - yarn test
+after_success: yarn coverage:coveralls
