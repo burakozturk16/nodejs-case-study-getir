@@ -8,7 +8,7 @@
   "scripts": {
     "start": "pm2 start ecosystem.config.json --no-daemon",
     "dev": "cross-env NODE_ENV=development nodemon src/server.js",
-    "test": "jest -i --colors --verbose --detectOpenHandles --forceExit",
+    "test": "jest -i --colors --verbose --detectOpenHandles & jest -i --coverage --forceExit",
     "test:watch": "jest -i --watchAll",
     "coverage": "jest -i --coverage",
     "coverage:coveralls": "jest -i --coverage --coverageReporters=text-lcov | coveralls",
