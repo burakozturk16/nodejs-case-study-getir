@@ -1,8 +1,7 @@
 # nodejs-case-study-getir
 
 [![Build Status](https://app.travis-ci.com/burakozturk16/nodejs-case-study-getir.svg?branch=master)](https://app.travis-ci.com/burakozturk16/nodejs-case-study-getir)
-
-[![Coverage Status](https://coveralls.io/repos/github/burakozturk16/nodejs-case-study-getir/badge.svg?branch=master)](https://coveralls.io/github/burakozturk16/nodejs-case-study-getir?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/burakozturk16/nodejs-case-study-getir/badge.svg)](https://coveralls.io/github/burakozturk16/nodejs-case-study-getir)
 
 This app provides RESTful API with a single endpoint for getir case study.
 
