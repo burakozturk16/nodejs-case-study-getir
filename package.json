@@ -11,7 +11,7 @@
     "test": "jest -i --colors --verbose --detectOpenHandles --forceExit",
     "test:watch": "jest -i --watchAll",
     "coverage": "jest -i  --detectOpenHandles --coverage --forceExit",
-    "coverage:coveralls": "jest -i --detectOpenHandles --coverage --coverageReporters=text-lcov | coveralls --forceExit",
+    "coverage:coveralls": "jest -i --detectOpenHandles --forceExit --coverage --coverageReporters=text-lcov | coveralls",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check **/*.js",
