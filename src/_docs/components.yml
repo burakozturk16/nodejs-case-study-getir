@@ -1,0 +1,35 @@
+components:
+  schemas:
+    Record:
+      type: object
+      properties:
+        startDate:
+          type: date
+          format: YYYY-MM-DD
+        endDate:
+          type: date
+          format: YYYY-MM-DD
+        minCount:
+          type: number
+        maxCount:
+          type: number
+      example:
+        startDate: 2017-01-28
+        endDate: 2017-01-28
+        minCount: 2700
+        maxCount: 2900
+
+    Response:
+      type: object
+      properties:
+        code:
+          type: number
+        msg:
+          type: string
+        records:
+          type: array
+          optional: true
+      example:
+        code: 0
+        msg: Success
+        records: [{ "key": "ibfRLaFT","createdAt": "2016-12-25T16:43:27.909Z","totalCount": 2892 }]
