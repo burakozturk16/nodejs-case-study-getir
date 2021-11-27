@@ -1,0 +1,15 @@
+name: Deploy to AWS
+  # You may pin to the exact commit or the version.
+  # uses: ShauryaAg/AWS-Deploy-action@e9c91003120e064c89117c5f114eee08a895da12
+  uses: ShauryaAg/AWS-Deploy-action@v1
+  with:
+    # Flag to get the env variables or not. Set `false` if ENV secrets should not be fetched
+    get-env: # optional, default is true
+    # Bucket where the ENV Secrets are stored
+    env-bucket: # optional
+    # AWS App Name
+    aws-app-name: # optional
+    # Bucket where the deployment is stored
+    app-bucket: # optional
+    # AWS App Group
+    app-group: # optional
