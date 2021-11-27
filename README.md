@@ -50,8 +50,10 @@ You can view the api documentation at [browser](http://localhost:3000/v1/docs)
 
 ### API Endpoints
 
+http://ec2-18-219-34-197.us-east-2.compute.amazonaws.com:3000/v1/records
+
 **Records routes**:\
-`POST /v1/records` - filter the records with given request body\
+`POST /v1/records` - filter the records with given request body
 
 **Response**:\
 The app has centralized error/response handler :
